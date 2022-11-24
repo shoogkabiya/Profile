@@ -5,10 +5,10 @@ const cv = document.querySelector(".cv");
 
 function displayImage() {
   github.src = "../images/github.webp";
-  links.appendChild(github);
+  // links.appendChild(github);
   linkedin.src = "../images/linkedin.png";
-  links.appendChild(linkedin);
+  // links.appendChild(linkedin);
   cv.src = "../images/cv.png";
-  links.appendChild(cv);
+  // links.appendChild(cv);
 }
 displayImage();
