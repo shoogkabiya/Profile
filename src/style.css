@@ -1,9 +1,16 @@
 .input-form{
     display:flex;
     flex-direction: column;
-    width:100%;
-    /* padding:90px; */
+    width:200px;
+    padding:20px;
     margin:auto;
     justify-content: center;
     align-items: center;
 }
+input {
+    width:100%;
+  }
+
+  .submit{
+    margin-top: 8px;
+  }
