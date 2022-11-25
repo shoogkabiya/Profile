@@ -9,7 +9,7 @@ function displayImage() {
   links.appendChild(github);
 
   linkedin.src = "../images/linkedin.png";
-  linkedin.classList.add("linkedin,");
+  linkedin.classList.add("linkedin");
   links.appendChild(linkedin);
 
   cv.src = "../images/cv.png";
