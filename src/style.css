@@ -26,3 +26,17 @@ input {
     padding:5px;
     cursor:pointer;
   }
+
+  .submit{
+    background-color: #2e8495;
+    color:#eeeff5;
+  }
+
+  .FirstName,.LastName{
+    display:flex;
+    justify-content: space-between;
+  }
+  
+  .firstname,.lastname{
+    margin-top:20px;
+  }
