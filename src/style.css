@@ -10,26 +10,35 @@
 }
 
 input {
-    width:60%;
+    width:90%;
     height:50%;
     padding:12px 20px;
-    margin:5px 0;
+    margin:10px 0;
     box-sizing: content-box;
     border-radius: 5px;
     padding: 8px;
   }
 
   .submit{
+    display: flex;
     margin-top: 8px;
     border-radius: 5px;
     width:80px;
     padding:5px;
+    text-align: center;
+    align-items: center;
     cursor:pointer;
   }
 
   .submit{
+    display: flex;
     background-color: #2e8495;
     color:#eeeff5;
+    border:5px;
+    padding:10px 15px;
+    font-size: 16px;
+    margin:4px 2px;
+ 
   }
 
   .FirstName,.LastName{
@@ -39,4 +48,5 @@ input {
   
   .firstname,.lastname{
     margin-top:20px;
+    margin-right: 20px;
   }
